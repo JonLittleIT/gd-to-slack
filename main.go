@@ -1,3 +1,9 @@
+# Go guard duty program which can alert slack of security alert
+# Use this to bootstrap AWS accounts into 1 single slack channel.
+# by : Jon Little / The Modern Logic Group
+#
+#
+
 package main
 
 import (
