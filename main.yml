@@ -1,0 +1,18 @@
+# https://www.color-hex.com/color-palette/33993
+colors:
+  low: "#fdc500"     # Yellow
+  medium: "#fd8c00"  # Orange 
+  high: "#dc0000"    # Red
+
+# Format of GuardDuty finding URL
+url: "https://console.aws.amazon.com/guardduty/home?region=%s#/findings?macros=current&fId=%s"
+
+# Default webhook for unconfigured accounts
+webhook: https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX
+
+# Account specific settings
+accounts:
+  111111111111: 
+      name: member1
+      severity: medium
+      webhook: https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX
